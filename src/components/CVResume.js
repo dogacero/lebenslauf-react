@@ -6,7 +6,11 @@ const CVResume = () => {
     <div className="cv-resume">
       {/* Banner oben */}
       <div className="top-banner">
-        <h2>Lebenslauf Project React</h2>
+        <h2>
+          <a href="https://github.com/dogacero/lebenslauf-react" target="_blank" rel="noopener noreferrer">
+            Lebenslauf Project React
+          </a>
+        </h2>
       </div>
       <div className="container">
         <header className="header-section">
@@ -157,8 +161,17 @@ const CVResume = () => {
             </li>
             <li>
               <article className="project-item">
-                <h3>Lebenslauf Project React</h3>
+                <h3>
+                  <a href="https://github.com/dogacero/lebenslauf-react" target="_blank" rel="noopener noreferrer">
+                    Lebenslauf Project React
+                  </a>
+                </h3>
                 <p>Interaktiver Lebenslauf als React-App. React, strukturierte Darstellung, Web-Erfahrung.</p>
+                <p>
+                  <a href="https://github.com/dogacero/lebenslauf-react" target="_blank" rel="noopener noreferrer" className="repo-link">
+                    Repository auf GitHub →
+                  </a>
+                </p>
               </article>
             </li>
             <li>
