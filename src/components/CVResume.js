@@ -149,8 +149,17 @@ const CVResume = () => {
           <ul>
             <li>
               <article className="project-item">
-                <h3>Persönliche Webseite / Portfolio</h3>
+                <h3>
+                  <a href="https://dogacero.github.io/dogaceren-portfolio/" target="_blank" rel="noopener noreferrer">
+                    Persönliche Webseite / Portfolio
+                  </a>
+                </h3>
                 <p>React, Microsoft Azure; GitHub. Web-Erfahrung.</p>
+                <p>
+                  <a href="https://dogacero.github.io/dogaceren-portfolio/" target="_blank" rel="noopener noreferrer" className="repo-link">
+                    Zur Webseite →
+                  </a>
+                </p>
               </article>
             </li>
             <li>
